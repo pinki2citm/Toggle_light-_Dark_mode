@@ -1,23 +1,7 @@
 import React, { useState } from 'react';
 
-function Navbar() {
-  const [Text, setText] = useState('Switch to Dark Mode');
-  const [bgColor, SetBgColor] = useState('light');
-  const [textColor, SetTextColor] = useState('dark');
-
-  const toggle = () => {
-    if (bgColor === 'light') {
-      SetBgColor('dark');
-      document.body.style.backgroundColor = 'black';
-      setText('Switch to Light Mode');
-      SetTextColor('light');
-    } else {
-      SetBgColor('light');
-      document.body.style.backgroundColor = 'white';
-      setText('Switch to Dark Mode');
-      SetTextColor('dark');
-    }
-  };
+function Navbar({textColor,bgColor,text,toggle}) {
+  
 
   return (
     <div className="px-2">
@@ -32,7 +16,7 @@ function Navbar() {
               <a className={`nav-link text-${textColor}`} href="#">Contact Us</a>
             </li>
           </ul>
-          <button className="btn btn-outline-success" onClick={toggle} type="button">{Text}</button>
+          <button className="btn btn-outline-success" onClick={toggle} type="button">{text}</button>
         </div>
       </nav>
   <center>    <h2 className={`text-${textColor}`}>Welcome to the Flower shop</h2></center>
