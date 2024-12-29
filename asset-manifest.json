@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Stepper-Function/static/css/main.d73ae85c.css",
-    "main.js": "/Stepper-Function/static/js/main.33f6d3af.js",
-    "index.html": "/Stepper-Function/index.html",
-    "main.d73ae85c.css.map": "/Stepper-Function/static/css/main.d73ae85c.css.map",
-    "main.33f6d3af.js.map": "/Stepper-Function/static/js/main.33f6d3af.js.map"
+    "main.css": "/Toggle_light-_Dark_mode/static/css/main.d73ae85c.css",
+    "main.js": "/Toggle_light-_Dark_mode/static/js/main.33f6d3af.js",
+    "index.html": "/Toggle_light-_Dark_mode/index.html",
+    "main.d73ae85c.css.map": "/Toggle_light-_Dark_mode/static/css/main.d73ae85c.css.map",
+    "main.33f6d3af.js.map": "/Toggle_light-_Dark_mode/static/js/main.33f6d3af.js.map"
   },
   "entrypoints": [
     "static/css/main.d73ae85c.css",
